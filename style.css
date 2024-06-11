@@ -113,4 +113,34 @@ h2 {
   color: #ffffff;
 }
 
-nav {
+.main_content {
+  width: 100%;
+}
+
+
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+.vh-100 {
+
+  background-color: #eee;
+}
+
+.bc {
+  background-color: #eee;
+  padding-bottom: 10%;
+  padding-top: 3%;
+}
